@@ -1,0 +1,19 @@
+{
+    "window.openFilesInNewWindow": true,
+    "editor.formatOnSave": true,
+    "vim.useCtrlKeys": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "eslint.autoFixOnSave": true,
+    "tslint.autoFixOnSave": true,
+    "window.zoomLevel": -1,
+    "files.trimTrailingWhitespace": true,
+    "editor.fontSize": 14,
+    "files.exclude": {
+        "**/.js": {
+            "when": "$(basename).ts"
+        },
+        "**/.js.map": {
+            "when": "$(basename).ts"
+        }
+    }
+}

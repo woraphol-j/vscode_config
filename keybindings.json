@@ -1,0 +1,34 @@
+[{
+    "key": "cmd+shift+r",
+    "command": "editor.action.rename",
+    "when": "editorTextFocus"
+}, {
+    "key": "cmd+g",
+    "command": "editor.action.goToDeclaration",
+    "when": "editorTextFocus"
+}, {
+    "key": "cmd+shift+g",
+    "command": "editor.action.referenceSearch.trigger",
+    "when": "editorTextFocus"
+}, {
+    "key": "cmd+o",
+    "command": "workbench.action.gotoSymbol"
+}, {
+    "key": "cmd+shift+h",
+    "command": "editor.action.referenceSearch.trigger"
+}, {
+    "key": "cmd+shift+t",
+    "command": "workbench.action.terminal.toggleTerminal"
+}, {
+    "key": "cmd+shift+g",
+    "command": "workbench.view.git"
+}, {
+    "key": "cmd+l w",
+    "command": "workbench.action.closeOtherEditors"
+}, {
+    "key": "cmd+-",
+    "command": "workbench.action.navigateBack"
+}, {
+    "key": "cmd+=",
+    "command": "workbench.action.navigateForward"
+}]
