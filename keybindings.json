@@ -31,4 +31,12 @@
 }, {
     "key": "cmd+=",
     "command": "workbench.action.navigateForward"
+}, {
+    "key": "ctrl+n",
+    "command": "workbench.action.quickOpenNavigateNext",
+    "when": "inQuickOpen"
+}, {
+    "key": "ctrl+p",
+    "command": "workbench.action.quickOpenNavigatePrevious",
+    "when": "inQuickOpen"
 }]
